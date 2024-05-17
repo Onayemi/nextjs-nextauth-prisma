@@ -1,0 +1,41 @@
+`
+For Training
+https://excalidraw.com/
+
+- npm install prisma --save-dev Or npm i -D prisma
+- npx prisma init
+
+Note: Anytime you change your model make sure you run migrate:
+
+- npx prisma migrate dev --name init
+
+Install prisma client
+
+- npm install @prisma/client
+
+Whenever you update your Prisma schema you will have to update your database schema using either
+
+- 'prisma migrate dev' or 'prisma db push'
+- npx prisma studio
+
+Install bctypt to encrypt password
+
+- npm i bcrypt
+- npm i axios
+
+https://next-auth.js.org
+Install Next-Auth
+
+- npm install next-auth
+
+You need to install prisma Adapter
+https://www.npmjs.com/package/@next-auth/prisma-adapter
+
+- npm i @next-auth/prisma-adapter
+
+Dependency to Install
+
+- npm i react-icons zod use-debounce clsx axios
+- npm i use-debounce
+- npm i react-toastify OR npm i sonner
+  `
